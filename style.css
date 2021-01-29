@@ -1,0 +1,204 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0186FF;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background:rgba(24, 26, 36, 0.5);
+  text-align:center;
+  padding: 5px 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:81px;
+  width: 100%;
+  background-color: #0186FF;
+}
+
+.left {
+  display: flex;
+  margin: 10px;
+  width: 50%;
+  flex-direction: column;
+  background-color: #0186FF;
+}
+
+.left .title {
+  font-size: 25px;
+  text-align: center;
+  color: #FFFF;
+}
+
+.left .presentation {
+  padding: 10px;
+  text-align: justify;
+  color: #FFFF;
+  font-size: 20px;
+}
+
+.right {
+  display: flex;
+  margin: 10px;
+  width: calc(40% - 20px);
+  align-items: center;
+  justify-content: center;
+  background-color: #0186FF;
+}
+
+.right .img {
+  width: 400px;
+  background-color:#FFFF;
+  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right .img img {
+  width: 200px;
+  height: auto;
+}
+
+.skills{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #FFFF;
+}
+
+.title {
+  text-align: center;
+  justify-content: center;
+}
+
+.titleSkills {
+  text-align: center;
+  justify-content: center;
+  background-color: #FFFF;
+}
+
+.skills .panel {
+  display: flex;
+  margin: 10px;
+  width: 70%;
+  flex-direction: row;
+}
+
+.skills .panel ul {
+  margin-left: 50px;
+}
+
+.skills .panel li {
+  color: rgb(56, 55, 55);
+  font-size: 20px;
+}
+
+.skills .panel p {
+  padding: 10px;
+  color: rgb(56, 55, 55);
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.lineHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  color: #FFFF;
+}
+
+.nave {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+
+.nave ul {
+  display: flex;
+}
+
+
+.nave li {
+  list-style-type: none;
+}
+
+.nave li a {
+  margin-right: 60px;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #FFFF;
+  font-weight: bold;
+}
+
+.nave li a:hover {
+  background-color: #0186FF;
+  color: #FFFF;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color:#0186FF;
+  width: 100%;
+}
+
+footer .contact {
+  display: flex;
+  width: calc(50% - 20px);
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer span {
+  margin: 10px;
+  color: #FFFF;
+}
+
+footer .links {
+  display: flex;
+  text-align:end;
+  width: calc(50% - 20px);
+  margin: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+footer a {
+  display: flex;
+  margin: 10px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
